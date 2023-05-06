@@ -1,6 +1,8 @@
 import { useState } from "react";
 import "./components/Navbar";
 import Navbar from "./components/Navbar";
+import SummonerSearchBox from "./components/SummonerSearchBox";
+import ServerSelect from "./components/ServerSelect";
 
 function App() {
   const [name, setName] = useState("");
@@ -8,7 +10,8 @@ function App() {
   return (
     <>
       <Navbar />
-      <p onClick={() => setName("")}>Hello, {name}</p>
+      <SummonerSearchBox onSubmit={() => console.log("Submitted")} />
+      <ServerSelect />
     </>
   );
 }

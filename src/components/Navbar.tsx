@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Searchbar from "./Searchbar";
 
 function getSummonerInfo(summonerName: string) {
   const apiKey = "";
@@ -48,7 +47,6 @@ function Navbar() {
             </li>
           </ul>
         </div>
-        <Searchbar onSubmit={updateSummonerName} />
       </div>
     </nav>
   );
