@@ -1,4 +1,5 @@
 import { ReactNode, useState } from "react";
+import ServerSelect from "./ServerSelect";
 
 interface Props {
   onSubmit: (summonerName: string) => void;
@@ -34,6 +35,7 @@ function SummonerSearchBox({ onSubmit, children }: Props) {
             </button>
           </form>
         </div>
+            <ServerSelect />
       </div>
     </div>
   );

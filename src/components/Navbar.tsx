@@ -39,6 +39,10 @@ function Navbar() {
               <a className="nav-link disabled" href="#">
                 Contact Us
               </a>
+            </li><li className="nav-item">
+              <a className="nav-link disabled" href="#">
+                Tools
+              </a>
             </li>
             <li className="nav-item">
               <a className="nav-link disabled" href="#">
